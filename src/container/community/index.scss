@@ -1,0 +1,99 @@
+.page {
+	padding: 24px;
+	max-width: 400px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tabs {
+	display: flex;
+}
+
+.tab {
+	width: 50%;
+	text-align: center;
+}
+
+.name__disabled {
+	color: #888888;
+}
+
+.thin {
+	border-bottom:1.5px solid #888888;
+}
+
+.bold {
+	border-bottom:1.5px solid black
+}
+
+.banner {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	margin: 20px 0 20px 0;
+
+	&__title {
+		font-size: large;
+		font-weight: 600;
+	}
+
+	&__text {
+		color: #363636;
+		margin-top: 10px;
+		line-height: normal;
+		font-size: smaller;
+		text-align: justify;
+	}
+}
+
+.community__button {
+	background-color: #F46F17;
+	border-radius: 10px;
+	height: 40px;
+	width: 100%;
+
+	transition: opacity 0.7s;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.button__text {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	font-size: small;
+	padding-top: 13px;
+}
+
+.tg__link {
+	text-decoration: none;
+}
+
+.button {
+	transition: opacity 0.7s;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.title {
+	font-size: 24px;
+	color: #121212;
+	font-weight: 600;
+}
